@@ -6,16 +6,16 @@ class Rtk < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/maxkulish/rtk/releases/download/v0.23.2/rtk-aarch64-apple-darwin.tar.gz"
-    sha256 "c6765c104a7423836f8b2d3ae38f43ad1af57c666040ba7f7c272c7e33aeb8c7"
+    sha256 "e8856490986cbe4fbc1f4d10dbf8c67e45605ba2b2ec59502d5ae085759a8586"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/maxkulish/rtk/releases/download/v0.23.2/rtk-x86_64-apple-darwin.tar.gz"
-    sha256 "d98e852f773d7851df5b224b8e132d67319a79a777c97c1a2e794657f474a5b6"
+    sha256 "28ebbeab18fce95918405dc73192ef6854b18bd5a363615e42241d8cf5b850a9"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://github.com/maxkulish/rtk/releases/download/v0.23.2/rtk-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "13db27a11524d969aff18285a91ef686249906ba56c688267c7850def71ffe96"
+    sha256 "cfa47876f6f2e8f410e1c69db37e90ea38beeb2b3d95b1d60fd3543212ae78f8"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/maxkulish/rtk/releases/download/v0.23.2/rtk-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "87067782d65f2f715461de3caa58a9f283a6e40dbd0f0df7c67cdf3809b478de"
+    sha256 "0611fe01a6464d8024bce411b1ddf0e47790524ce99a1fac55a286049876161f"
   end
 
   def install
