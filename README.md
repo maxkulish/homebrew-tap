@@ -13,4 +13,4 @@ brew install <formula>
 
 | Formula | Description | Install |
 |---------|-------------|---------|
-| rtk | Rust Token Killer — CLI proxy to minimize LLM token consumption | `brew install maxkulish/tap/rtk` |
+| rtk | Rust Token Optimizer — CLI proxy to minimize LLM token consumption | `brew install maxkulish/tap/rtk` |
