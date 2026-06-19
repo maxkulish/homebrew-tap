@@ -8,7 +8,7 @@ cask "rs-wisper" do
   homepage "https://github.com/maxkulish/rs-wisper"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "rs-wisper.app"
 
