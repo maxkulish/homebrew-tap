@@ -1,7 +1,6 @@
 class Gcm < Formula
   desc "AI git commit tool: turns working-tree changes into a signed conventional commit"
   homepage "https://github.com/maxkulish/gcm"
-  version "0.1.8"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
