@@ -4,17 +4,17 @@ class Gcm < Formula
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/maxkulish/gcm/releases/download/v0.4.0/gcm-v0.4.0-aarch64-apple-darwin.tar.gz"
-    sha256 "1bd88826d7af97ca55f337b74c53eb77f814bead795d40b4dc3192ff0c793a0e"
+    url "https://github.com/maxkulish/gcm/releases/download/v0.4.1/gcm-v0.4.1-aarch64-apple-darwin.tar.gz"
+    sha256 "5d5f0335bc32b6e70217cf069840ff883d27eff8228ca78afcbfe73790cc11c1"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/maxkulish/gcm/releases/download/v0.4.0/gcm-v0.4.0-x86_64-apple-darwin.tar.gz"
-    sha256 "93e0476dabcf1ffc9b12a7b805b3a40f2962fb762179c90503a346b497f8e098"
+    url "https://github.com/maxkulish/gcm/releases/download/v0.4.1/gcm-v0.4.1-x86_64-apple-darwin.tar.gz"
+    sha256 "a4569d3f0ce0b14668e73d67052ad344dafd837ec46cfaf2bbd94c40ea1d2cb3"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/maxkulish/gcm/releases/download/v0.4.0/gcm-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
-    sha256 "c8301ec9415ac79057a2b7dfb862840cd40ea3de008b138c55cc3c80c3dd2b4c"
+    url "https://github.com/maxkulish/gcm/releases/download/v0.4.1/gcm-v0.4.1-aarch64-unknown-linux-musl.tar.gz"
+    sha256 "cccfb067d670250d788780b58613eb97ee889fb57ad76402837e59bff745ef5e"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/maxkulish/gcm/releases/download/v0.4.0/gcm-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "89089e7e7a22983775e764e0d19fed12a11036ec0eab4e70bcac2d089e98d634"
+    url "https://github.com/maxkulish/gcm/releases/download/v0.4.1/gcm-v0.4.1-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "209055f09fa55dd89553ea66034cb175927703cf6eab4530ef5efec69887e76f"
   end
 
   def install
