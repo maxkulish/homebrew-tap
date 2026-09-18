@@ -14,3 +14,4 @@ brew install <formula>
 | Formula | Description | Install |
 |---------|-------------|---------|
 | rtk | Rust Token Optimizer — CLI proxy to minimize LLM token consumption | `brew install maxkulish/tap/rtk` |
+| lok | Declarative multi-LLM orchestration across Claude, Codex, Gemini and Ollama | `brew install maxkulish/tap/lok` |
