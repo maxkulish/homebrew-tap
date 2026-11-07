@@ -1,21 +1,21 @@
 class Lok < Formula
   desc "Declarative multi-LLM orchestration across Claude, Codex, Gemini and Ollama"
   homepage "https://github.com/maxkulish/lok"
-  version "20260915.0.0"
+  version "20261107.0.0"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/maxkulish/lok/releases/download/v20260915.0.0/lok-v20260915.0.0-aarch64-apple-darwin.tar.gz"
-    sha256 "c5bcdb5fabd240f7c065df2b8830cae846bc88ea3cb4f64fd6d02d3aca2488d3"
+    url "https://github.com/maxkulish/lok/releases/download/v20261107.0.0/lok-v20261107.0.0-aarch64-apple-darwin.tar.gz"
+    sha256 "2965398d4f26bf4c54cf9a28068513640587c46029c4cd77796d16b485c1daf8"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/maxkulish/lok/releases/download/v20260915.0.0/lok-v20260915.0.0-x86_64-apple-darwin.tar.gz"
-    sha256 "07cab38381adc00cb9dafa0afdd11b10d95a0d14a8f94a6bbefb8ae5e90b7dc6"
+    url "https://github.com/maxkulish/lok/releases/download/v20261107.0.0/lok-v20261107.0.0-x86_64-apple-darwin.tar.gz"
+    sha256 "015b9e38b9bfdd6578a3805f48c09adba555ee72a8dde1c8dd3c3bcc62fcbe1e"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/maxkulish/lok/releases/download/v20260915.0.0/lok-v20260915.0.0-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "9bf90b7dcc3331dbdae08ca3d163192b75ff7661fed5c8f20441275d0edabe0d"
+    url "https://github.com/maxkulish/lok/releases/download/v20261107.0.0/lok-v20261107.0.0-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "3fa17d69e1c44a4ed9dbd8634a03c5535d74b0a44b5d3d8ecf26b516cd0dcaa5"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/maxkulish/lok/releases/download/v20260915.0.0/lok-v20260915.0.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d71b270e110be6ec879374d7060b01df1f43229cf00ab7fa51fe1f1b0565dbbe"
+    url "https://github.com/maxkulish/lok/releases/download/v20261107.0.0/lok-v20261107.0.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "9b084ccdea19ab7fb9786a4ff8cd6d661a665ca70f828543d092fb08cb1128ab"
   end
 
   def install
