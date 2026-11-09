@@ -1,6 +1,6 @@
 cask "rs-wisper" do
-  version "0.27.7"
-  sha256 "de243297ac06f4ea1a7a24d3c5af33d7494fe799f2b16eeeb701234d1e9e2205"
+  version "0.27.8"
+  sha256 "2fb49c81af1dcba486b92404a1f00693fc6837ec8c68865edbc884dd046a65ca"
 
   url "https://wisper.kulish.org/v#{version}/rs-wisper_#{version}_aarch64.dmg"
   name "rs-wisper"
